@@ -1,0 +1,6 @@
+478, "itcontainer", "TEST_DC01", "Error", "Contrôleur de domaine", "Property "
+479, "itcontainer", "TEST_DC02", "Ok", "Contrôleur de domaine", "Property "
+480, "itcontainer", "TEST_Datacenter", "Ok", "Datacenter de l'entreprise", "Property "
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Warning", "Domaine interne groupe", "Property "
+482, "itservice", "Fsmo", "Error", "serveur FSMO du domaine DFSI.CORP", "Property "
+483, "itservice", "TEST_BACKUP_SOLUTION", "Ok", "sauvegarde messagerie et archives", "Property "

@@ -1,0 +1,6 @@
+478, "itcontainer", "TEST_DC01", "Array","Array","215:3155","Error","Important","Array","Array","Array"
+479, "itcontainer", "TEST_DC02", "Array","Array","215:3155","Ok","Important","Array","Array","Array"
+480, "itcontainer", "TEST_Datacenter", "Array","Array","215:3159","Ok","Indispensable","Array","Array","Array"
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Array","","","","215:3167","Warning","Important","Array","Array","Array"
+482, "itservice", "Fsmo", "Array","","","","215:3160","Error","Important","Array","Array","Array"
+483, "itservice", "TEST_BACKUP_SOLUTION", "Array","","","","215:3162","Ok","Important","Array","Array","Array"

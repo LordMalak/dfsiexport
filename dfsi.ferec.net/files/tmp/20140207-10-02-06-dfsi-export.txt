@@ -1,0 +1,26 @@
+<dfsi>
+	<Service>
+		<numero>478</numero>
+		<titre>TEST_DC01</titre>
+	</service>
+	<Service>
+		<numero>479</numero>
+		<titre>TEST_DC02</titre>
+	</service>
+	<Service>
+		<numero>480</numero>
+		<titre>TEST_Datacenter</titre>
+	</service>
+	<container>
+		<numero>481</numero>
+		<titre>TEST_Domaine_DFSI.CORP</titre>
+	</container>
+	<container>
+		<numero>482</numero>
+		<titre>Fsmo</titre>
+	</container>
+	<container>
+		<numero>483</numero>
+		<titre>TEST_BACKUP_SOLUTION</titre>
+	</container>
+</dfsi>

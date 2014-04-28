@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!DOCTYPE liste_de_noeuds [<!ELEMENT liste_de_noeuds (dfsi)*><!ELEMENT dfsi (service | container)><!ELEMENT service (numero, titre)><!ELEMENT container (numero, titre)><!ELEMENT numero (#PCDATA)><!ELEMENT titre (#PCDATA)>]>
+
+<dfsi>
+	<services>
+		<service>
+			<numero>481</numero>
+			<titre>TEST_Domaine_DFSI.CORP</titre>
+		</service>
+		<service>
+			<numero>482</numero>
+			<titre>Fsmo</titre>
+		</service>
+		<service>
+			<numero>483</numero>
+			<titre>TEST_BACKUP_SOLUTION</titre>
+		</service>
+	</services>
+	<containers>
+		<container>
+			<numero>478</numero>
+			<titre>TEST_DC01</titre>
+		</container>
+		<container>
+			<numero>479</numero>
+			<titre>TEST_DC02</titre>
+		</container>
+		<container>
+			<numero>480</numero>
+			<titre>TEST_Datacenter</titre>
+		</container>
+	</containers>
+</dfsi>

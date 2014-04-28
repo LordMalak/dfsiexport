@@ -1,0 +1,6 @@
+, "itcontainer", "TEST_DC01", 
+, "itcontainer", "TEST_DC02", 
+, "itcontainer", "TEST_Datacenter", 
+, "itservice", "TEST_Domaine_DFSI.CORP", 
+, "itservice", "Fsmo", 
+, "itservice", "TEST_BACKUP_SOLUTION", 

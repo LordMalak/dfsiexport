@@ -1,0 +1,229 @@
+<schema targetNamespace="http://dfsi.ferec.net"
+	xmlns="http://dfsi.ferec.net/xmlschema-export"
+	xmlns:cm="http://dfsi.ferec.net/namespace/export">
+	<element name="dfsi" type="cm:dfsi" />
+	<type name="dfsi">
+		<element name="service" type="cm:service" />
+		<element name="container" type="cm:container" />
+		<element name="taxonomie" type="cm:taxonomie" />
+	</type>
+	<type name="service">
+		<element name="numero" type="integer" />
+		<element name="type" type="string" />
+	</type>
+	<type name="container">
+		<element name="numero" type="integer" />
+		<element name="type" type="string" />
+	</type>
+	<type name="taxonomie">
+		<element name="numero" type="integer" />
+		<element name="type" type="string" />
+	</type>
+</schema>
+
+<dfsi>
+	<services>
+		<service>
+			<numero>481</numero>
+			<titre>TEST_Domaine_DFSI.CORP</titre>
+		</service>
+		<service>
+			<numero>482</numero>
+			<titre>Fsmo</titre>
+		</service>
+		<service>
+			<numero>483</numero>
+			<titre>TEST_BACKUP_SOLUTION</titre>
+		</service>
+	</services>
+	<containers>
+		<container>
+			<numero>478</numero>
+			<titre>TEST_DC01</titre>
+		</container>
+		<container>
+			<numero>479</numero>
+			<titre>TEST_DC02</titre>
+		</container>
+		<container>
+			<numero>480</numero>
+			<titre>TEST_Datacenter</titre>
+		</container>
+	</containers>
+	<taxonomies>
+		<categorie>
+			Constructeurs informatique
+			<terme>
+				"** Indéterminé **"
+			</terme>
+			<terme>
+				"Apple"
+			</terme>
+			<terme>
+				"Cisco"
+			</terme>
+			<terme>
+				"Citrix"
+			</terme>
+			<terme>
+				"Hewlet Packard"
+			</terme>
+			<terme>
+				"Oracle"
+			</terme>
+			<terme>
+				"Paessler"
+			</terme>
+			<terme>
+				"RedHat"
+			</terme>
+			<terme>
+				"Symantec"
+			</terme>
+			<terme>
+				"VEEAM"
+			</terme>
+			<terme>
+				"VmWare"
+			</terme>
+			<terme>
+				"Wyse"
+			</terme>
+		</categories>
+		<categorie>
+			Étiquettes
+			<terme>
+				"essai node1"
+			</terme>
+			<terme>
+				"tag2"
+			</terme>
+		</categories>
+		<categorie>
+			Site
+			<terme>
+				"Hits Datacenter"
+			</terme>
+			<terme>
+				"Jacques Cartier"
+			</terme>
+			<terme>
+				"Rennes"
+			</terme>
+			<terme>
+				"Benjamin Franklin"
+			</terme>
+		</categories>
+		<categorie>
+			Types de service
+			<terme>
+				"** Indéterminé **"
+			</terme>
+			<terme>
+				"Adresse IP"
+			</terme>
+			<terme>
+				"Adresse IP V4"
+			</terme>
+			<terme>
+				"Adresse IP V6"
+			</terme>
+			<terme>
+				"Adresse Mac"
+			</terme>
+			<terme>
+				"Application"
+			</terme>
+			<terme>
+				"Maitre d'opération active directory"
+			</terme>
+			<terme>
+				"Routeur"
+			</terme>
+			<terme>
+				"Salle informatique"
+			</terme>
+			<terme>
+				"Serveur"
+			</terme>
+			<terme>
+				"Contrôleur de domaine Active directory"
+			</terme>
+			<terme>
+				"Service Antivirus"
+			</terme>
+			<terme>
+				"Service Backup"
+			</terme>
+			<terme>
+				"Service d'applicaton"
+			</terme>
+			<terme>
+				"Service d'impression"
+			</terme>
+			<terme>
+				"Service de fichiers"
+			</terme>
+			<terme>
+				"Service de generation de documents"
+			</terme>
+			<terme>
+				"Service de licences"
+			</terme>
+			<terme>
+				"Service de log"
+			</terme>
+			<terme>
+				"Service de messagerie"
+			</terme>
+			<terme>
+				"Service de passerelle"
+			</terme>
+			<terme>
+				"Service de streaming"
+			</terme>
+			<terme>
+				"Service de supervision système et réseau"
+			</terme>
+			<terme>
+				"Service de virtualisation"
+			</terme>
+			<terme>
+				"Service DFS"
+			</terme>
+			<terme>
+				"Service FTP"
+			</terme>
+			<terme>
+				"Service intranet"
+			</terme>
+			<terme>
+				"Service Nas"
+			</terme>
+			<terme>
+				"Service Proxy"
+			</terme>
+			<terme>
+				"Service San"
+			</terme>
+			<terme>
+				"Service SMTP"
+			</terme>
+			<terme>
+				"Service SQL"
+			</terme>
+			<terme>
+				"Service TFTP"
+			</terme>
+			<terme>
+				"Service TSE"
+			</terme>
+			<terme>
+				"Service Web"
+			</terme>
+			<terme>
+				"Switch"
+			</terme>
+		</categories>
+	</taxonomies>
+</dfsi>

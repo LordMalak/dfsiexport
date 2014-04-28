@@ -1,0 +1,6 @@
+478, "itcontainer", "TEST_DC01", "Error", "", "Important"
+479, "itcontainer", "TEST_DC02", "Ok", "", "Important"
+480, "itcontainer", "TEST_Datacenter", "Ok", "", "Indispensable"
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Warning", "", "Important"
+482, "itservice", "Fsmo", "Error", "", "Important"
+483, "itservice", "TEST_BACKUP_SOLUTION", "Ok", "", "Important"

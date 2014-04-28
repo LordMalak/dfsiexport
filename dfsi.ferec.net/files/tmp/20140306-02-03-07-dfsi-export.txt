@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="dfsi">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="services">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="service">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="numero" type="xs:integer"/>
+										<xs:element maxOccurs="unbounded" name="titre" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="statut" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="body" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="criticite" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="taxonomie" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="containers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="container">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="numero" type="xs:integer"/>
+										<xs:element maxOccurs="unbounded" name="titre" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="statut" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="body" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="criticite" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="taxonomie" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="taxonomies">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="categorie" type="xs:string"/>
+							<xs:element maxOccurs="unbounded" name="terme" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+<dfsi>
+	<services>
+		<service>
+			<numero>481</numero>
+			<titre>TEST_Domaine_DFSI.CORP</titre>
+			<statut>Warning</statut>
+			<body>Domaine interne groupe</body>
+			<criticite>Important</criticite>
+			<taxonomie>3167</taxonomie>
+			<dependances>
+				<groupe_de_dependances>479</groupe_de_dependances>
+			</dependances>
+		</service>
+		<service>
+			<numero>482</numero>
+			<titre>Fsmo</titre>
+			<statut>Error</statut>
+			<body>serveur FSMO du domaine DFSI.CORP</body>
+			<criticite>Important</criticite>
+			<taxonomie>3160</taxonomie>
+			<dependances>
+				<ancestor>478</ancestor>
+			</dependances>
+		</service>
+		<service>
+			<numero>483</numero>
+			<titre>TEST_BACKUP_SOLUTION</titre>
+			<statut>Ok</statut>
+			<body>sauvegarde messagerie et archives</body>
+			<criticite>Important</criticite>
+			<taxonomie>3162</taxonomie>
+			<dependances>
+				<ancestor>479</ancestor>
+			</dependances>
+		</service>
+	</services>
+	<containers>
+		<container>
+			<numero>478</numero>
+			<titre>TEST_DC01</titre>
+			<statut>Error</statut>
+			<body>Contrôleur de domaine</body>
+			<criticite>Important</criticite>
+			<taxonomie>3155</taxonomie>
+			<dependances>
+				<dependances>482</dependances>
+				<ancestor>480</ancestor>
+			</dependances>
+		</container>
+		<container>
+			<numero>479</numero>
+			<titre>TEST_DC02</titre>
+			<statut>Ok</statut>
+			<body>Contrôleur de domaine</body>
+			<criticite>Important</criticite>
+			<taxonomie>3155</taxonomie>
+			<dependances>
+				<dependances>483</dependances>
+				<ancestor>480</ancestor>
+			</dependances>
+		</container>
+		<container>
+			<numero>480</numero>
+			<titre>TEST_Datacenter</titre>
+			<statut>Ok</statut>
+			<body>Datacenter de l'entreprise</body>
+			<criticite>Indispensable</criticite>
+			<taxonomie>3159</taxonomie>
+			<dependances>
+				<contenu>479</contenu>
+				<dependances>479</dependances>
+			</dependances>
+		</container>
+	</containers>
+	<taxonomies>
+		<categorie>
+			Constructeurs informatique
+		</categories>
+			<terme id="3153">
+				"** Indéterminé **"
+			</terme>
+			<terme id="3144">
+				"Apple"
+			</terme>
+			<terme id="3142">
+				"Cisco"
+			</terme>
+			<terme id="3150">
+				"Citrix"
+			</terme>
+			<terme id="3152">
+				"Hewlet Packard"
+			</terme>
+			<terme id="3145">
+				"Oracle"
+			</terme>
+			<terme id="3147">
+				"Paessler"
+			</terme>
+			<terme id="3146">
+				"RedHat"
+			</terme>
+			<terme id="3143">
+				"Symantec"
+			</terme>
+			<terme id="3148">
+				"VEEAM"
+			</terme>
+			<terme id="3149">
+				"VmWare"
+			</terme>
+			<terme id="3151">
+				"Wyse"
+			</terme>
+		<categorie>
+			Étiquettes
+		</categories>
+			<terme id="2004">
+				"essai node1"
+			</terme>
+			<terme id="2005">
+				"tag2"
+			</terme>
+		<categorie>
+			Site
+		</categories>
+			<terme id="2014">
+				"Hits Datacenter"
+			</terme>
+			<terme id="2012">
+				"Jacques Cartier"
+			</terme>
+			<terme id="2015">
+				"Rennes"
+			</terme>
+			<terme id="2013">
+				"Benjamin Franklin"
+			</terme>
+		<categorie>
+			Types de service
+		</categories>
+			<terme id="3161">
+				"** Indéterminé **"
+			</terme>
+			<terme id="3154">
+				"Adresse IP"
+			</terme>
+			<terme id="3188">
+				"Adresse IP V4"
+			</terme>
+			<terme id="3189">
+				"Adresse IP V6"
+			</terme>
+			<terme id="3187">
+				"Adresse Mac"
+			</terme>
+			<terme id="3156">
+				"Application"
+			</terme>
+			<terme id="3160">
+				"Maitre d'opération active directory"
+			</terme>
+			<terme id="3157">
+				"Routeur"
+			</terme>
+			<terme id="3159">
+				"Salle informatique"
+			</terme>
+			<terme id="3155">
+				"Serveur"
+			</terme>
+			<terme id="3167">
+				"Contrôleur de domaine Active directory"
+			</terme>
+			<terme id="3175">
+				"Service Antivirus"
+			</terme>
+			<terme id="3162">
+				"Service Backup"
+			</terme>
+			<terme id="3178">
+				"Service d'applicaton"
+			</terme>
+			<terme id="3165">
+				"Service d'impression"
+			</terme>
+			<terme id="3164">
+				"Service de fichiers"
+			</terme>
+			<terme id="3186">
+				"Service de generation de documents"
+			</terme>
+			<terme id="3184">
+				"Service de licences"
+			</terme>
+			<terme id="3179">
+				"Service de log"
+			</terme>
+			<terme id="3171">
+				"Service de messagerie"
+			</terme>
+			<terme id="3173">
+				"Service de passerelle"
+			</terme>
+			<terme id="3185">
+				"Service de streaming"
+			</terme>
+			<terme id="3176">
+				"Service de supervision système et réseau"
+			</terme>
+			<terme id="3163">
+				"Service de virtualisation"
+			</terme>
+			<terme id="3174">
+				"Service DFS"
+			</terme>
+			<terme id="3170">
+				"Service FTP"
+			</terme>
+			<terme id="3181">
+				"Service intranet"
+			</terme>
+			<terme id="3183">
+				"Service Nas"
+			</terme>
+			<terme id="3172">
+				"Service Proxy"
+			</terme>
+			<terme id="3182">
+				"Service San"
+			</terme>
+			<terme id="3168">
+				"Service SMTP"
+			</terme>
+			<terme id="3177">
+				"Service SQL"
+			</terme>
+			<terme id="3169">
+				"Service TFTP"
+			</terme>
+			<terme id="3166">
+				"Service TSE"
+			</terme>
+			<terme id="3180">
+				"Service Web"
+			</terme>
+			<terme id="3158">
+				"Switch"
+			</terme>
+	</taxonomies>
+</dfsi>

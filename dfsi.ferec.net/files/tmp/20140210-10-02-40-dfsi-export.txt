@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>"\r\n"<!DOCTYPE liste_de_noeuds ["\r\n"<!ELEMENT liste_de_noeuds (dfsi)*>"\r\n"<!ELEMENT dfsi (service | container)>"\r\n"<!ELEMENT service (numero, titre)>"\r\n"<!ELEMENT container (numero, titre)>"\r\n"<!ELEMENT numero (#PCDATA)>"\r\n"<!ELEMENT titre (#PCDATA)>"\r\n"]>"\r\n\r\n"<dfsi>
+	<services>
+		<service>
+			<numero>481</numero>
+			<titre>TEST_Domaine_DFSI.CORP</titre>
+		</service>
+		<service>
+			<numero>482</numero>
+			<titre>Fsmo</titre>
+		</service>
+		<service>
+			<numero>483</numero>
+			<titre>TEST_BACKUP_SOLUTION</titre>
+		</service>
+	</services>
+	<containers>
+		<container>
+			<numero>478</numero>
+			<titre>TEST_DC01</titre>
+		</container>
+		<container>
+			<numero>479</numero>
+			<titre>TEST_DC02</titre>
+		</container>
+		<container>
+			<numero>480</numero>
+			<titre>TEST_Datacenter</titre>
+		</container>
+	</containers>
+</dfsi>

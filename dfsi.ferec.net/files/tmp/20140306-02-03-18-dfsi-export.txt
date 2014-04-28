@@ -1,0 +1,15 @@
+478, "itcontainer", "TEST_DC01", "Error", "Contrôleur de domaine", "Important", "3155", "", "482", "", "480"
+479, "itcontainer", "TEST_DC02", "Ok", "Contrôleur de domaine", "Important", "3155", "", "483", "", "480"
+480, "itcontainer", "TEST_Datacenter", "Ok", "Datacenter de l'entreprise", "Indispensable", "3159", "478, 479", "478, 479", "", ""
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Warning", "Domaine interne groupe", "Important", "3167", "", "478, 479", ""
+482, "itservice", "Fsmo", "Error", "serveur FSMO du domaine DFSI.CORP", "Important", "3160", "", "", "478"
+483, "itservice", "TEST_BACKUP_SOLUTION", "Ok", "sauvegarde messagerie et archives", "Important", "3162", "", "", "479"
+
+Constructeurs informatique
+3153:** Indéterminé **, 3144:Apple, 3142:Cisco, 3150:Citrix, 3152:Hewlet Packard, 3145:Oracle, 3147:Paessler, 3146:RedHat, 3143:Symantec, 3148:VEEAM, 3149:VmWare, 3151:Wyse, 
+Étiquettes
+2004:essai node1, 2005:tag2, 
+Site
+2014:Hits Datacenter, 2012:Jacques Cartier, 2015:Rennes, 2013:Benjamin Franklin, 
+Types de service
+3161:** Indéterminé **, 3154:Adresse IP, 3188:Adresse IP V4, 3189:Adresse IP V6, 3187:Adresse Mac, 3156:Application, 3160:Maitre d'opération active directory, 3157:Routeur, 3159:Salle informatique, 3155:Serveur, 3167:Contrôleur de domaine Active directory, 3175:Service Antivirus, 3162:Service Backup, 3178:Service d'applicaton, 3165:Service d'impression, 3164:Service de fichiers, 3186:Service de generation de documents, 3184:Service de licences, 3179:Service de log, 3171:Service de messagerie, 3173:Service de passerelle, 3185:Service de streaming, 3176:Service de supervision système et réseau, 3163:Service de virtualisation, 3174:Service DFS, 3170:Service FTP, 3181:Service intranet, 3183:Service Nas, 3172:Service Proxy, 3182:Service San, 3168:Service SMTP, 3177:Service SQL, 3169:Service TFTP, 3166:Service TSE, 3180:Service Web, 3158:Switch, 

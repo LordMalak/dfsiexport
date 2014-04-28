@@ -1,0 +1,6 @@
+478, "itcontainer", "TEST_DC01", "Error", "Array", "Property "
+479, "itcontainer", "TEST_DC02", "Ok", "Array", "Property "
+480, "itcontainer", "TEST_Datacenter", "Ok", "Array", "Property "
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Warning", "Array", "Property "
+482, "itservice", "Fsmo", "Error", "Array", "Property "
+483, "itservice", "TEST_BACKUP_SOLUTION", "Ok", "Array", "Property "

@@ -1,0 +1,32 @@
+<noeuds>
+	<noeud>
+		<numero>478</numero>
+		<type>itcontainer</type>
+		<titre>TEST_DC01</titre>
+	</noeud>
+	<noeud>
+		<numero>479</numero>
+		<type>itcontainer</type>
+		<titre>TEST_DC02</titre>
+	</noeud>
+	<noeud>
+		<numero>480</numero>
+		<type>itcontainer</type>
+		<titre>TEST_Datacenter</titre>
+	</noeud>
+	<noeud>
+		<numero>481</numero>
+		<type>itservice</type>
+		<titre>TEST_Domaine_DFSI.CORP</titre>
+	</noeud>
+	<noeud>
+		<numero>482</numero>
+		<type>itservice</type>
+		<titre>Fsmo</titre>
+	</noeud>
+	<noeud>
+		<numero>483</numero>
+		<type>itservice</type>
+		<titre>TEST_BACKUP_SOLUTION</titre>
+	</noeud>
+</noeuds>

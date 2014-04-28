@@ -1,0 +1,6 @@
+478, "itcontainer", "TEST_DC01", "Error", "Array", "Contrôleur de domaine"
+479, "itcontainer", "TEST_DC02", "Ok", "Array", "Contrôleur de domaine"
+480, "itcontainer", "TEST_Datacenter", "Ok", "Array", "Datacenter de l'entreprise"
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Warning", "Array", "Domaine interne groupe"
+482, "itservice", "Fsmo", "Error", "Array", "serveur FSMO du domaine DFSI.CORP"
+483, "itservice", "TEST_BACKUP_SOLUTION", "Ok", "Array", "sauvegarde messagerie et archives"

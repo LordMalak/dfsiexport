@@ -1,0 +1,7 @@
+478, "itcontainer", "TEST_DC01"
+479, "itcontainer", "TEST_DC02"
+480, "itcontainer", "TEST_Datacenter"
+481, "itservice", "TEST_Domaine_DFSI.CORP"
+482, "itservice", "Fsmo"
+483, "itservice", "TEST_BACKUP_SOLUTION"
+Constructeurs informatique\r\n** Indéterminé **\r\nApple\r\nCisco\r\nCitrix\r\nHewlet Packard\r\nOracle\r\nPaessler\r\nRedHat\r\nSymantec\r\nVEEAM\r\nVmWare\r\nWyse\r\nÉtiquettes\r\nessai node1\r\ntag2\r\nSite\r\nHits Datacenter\r\nJacques Cartier\r\nRennes\r\nBenjamin Franklin\r\nTypes de service\r\n** Indéterminé **\r\nAdresse IP\r\nAdresse IP V4\r\nAdresse IP V6\r\nAdresse Mac\r\nApplication\r\nMaitre d'opération active directory\r\nRouteur\r\nSalle informatique\r\nServeur\r\nContrôleur de domaine Active directory\r\nService Antivirus\r\nService Backup\r\nService d'applicaton\r\nService d'impression\r\nService de fichiers\r\nService de generation de documents\r\nService de licences\r\nService de log\r\nService de messagerie\r\nService de passerelle\r\nService de streaming\r\nService de supervision système et réseau\r\nService de virtualisation\r\nService DFS\r\nService FTP\r\nService intranet\r\nService Nas\r\nService Proxy\r\nService San\r\nService SMTP\r\nService SQL\r\nService TFTP\r\nService TSE\r\nService Web\r\nSwitch\r\n

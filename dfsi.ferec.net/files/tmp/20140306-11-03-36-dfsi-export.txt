@@ -1,0 +1,15 @@
+478, "itcontainer", "TEST_DC01", "Error", "Contrôleur de domaine", "Important", "", "", "482", "480"
+479, "itcontainer", "TEST_DC02", "Ok", "Contrôleur de domaine", "Important", "", "", "483", "480"
+480, "itcontainer", "TEST_Datacenter", "Ok", "Datacenter de l'entreprise", "Indispensable", "478, 479", "", "478, 479", ""
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Warning", "Domaine interne groupe", "Important", "478, 479", "", ""
+482, "itservice", "Fsmo", "Error", "serveur FSMO du domaine DFSI.CORP", "Important", "", "", "478"
+483, "itservice", "TEST_BACKUP_SOLUTION", "Ok", "sauvegarde messagerie et archives", "Important", "", "", "479"
+
+Constructeurs informatique
+** Indéterminé **, Apple, Cisco, Citrix, Hewlet Packard, Oracle, Paessler, RedHat, Symantec, VEEAM, VmWare, Wyse, 
+Étiquettes
+essai node1, tag2, 
+Site
+Hits Datacenter, Jacques Cartier, Rennes, Benjamin Franklin, 
+Types de service
+** Indéterminé **, Adresse IP, Adresse IP V4, Adresse IP V6, Adresse Mac, Application, Maitre d'opération active directory, Routeur, Salle informatique, Serveur, Contrôleur de domaine Active directory, Service Antivirus, Service Backup, Service d'applicaton, Service d'impression, Service de fichiers, Service de generation de documents, Service de licences, Service de log, Service de messagerie, Service de passerelle, Service de streaming, Service de supervision système et réseau, Service de virtualisation, Service DFS, Service FTP, Service intranet, Service Nas, Service Proxy, Service San, Service SMTP, Service SQL, Service TFTP, Service TSE, Service Web, Switch, 

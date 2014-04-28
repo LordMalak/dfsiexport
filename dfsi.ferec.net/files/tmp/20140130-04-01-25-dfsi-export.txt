@@ -1,0 +1,7 @@
+, , 
+478, TEST_DC01, itcontainer
+479, TEST_DC02, itcontainer
+480, TEST_Datacenter, itcontainer
+481, TEST_Domaine_DFSI.CORP, itservice
+482, Fsmo, itservice
+483, TEST_BACKUP_SOLUTION, itservice

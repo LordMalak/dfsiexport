@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="dfsi">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="services">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="service">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="numero" type="xs:integer"/>
+										<xs:element maxOccurs="unbounded" name="titre" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="statut" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="body" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="criticite" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="containers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="container">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="numero" type="xs:integer"/>
+										<xs:element maxOccurs="unbounded" name="titre" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="statut" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="body" type="xs:string"/>
+										<xs:element maxOccurs="unbounded" name="criticite" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="taxonomies">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="categorie" type="xs:string"/>
+							<xs:element maxOccurs="unbounded" name="terme" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+<dfsi>
+	<services>
+		<service>
+			<numero>481</numero>
+			<titre>TEST_Domaine_DFSI.CORP</titre>
+			<statut>Warning</statut>
+			<body>Domaine interne groupe</body>
+			<criticite>Important</criticite>
+			<taxonomie>3167</taxonomie>
+			<dependance>			<dependance>479</dependance>
+<dependance>
+		</service>
+		<service>
+			<numero>482</numero>
+			<titre>Fsmo</titre>
+			<statut>Error</statut>
+			<body>serveur FSMO du domaine DFSI.CORP</body>
+			<criticite>Important</criticite>
+			<taxonomie>3160</taxonomie>
+			<dependance>			<dependance>478</dependance>
+<dependance>
+		</service>
+		<service>
+			<numero>483</numero>
+			<titre>TEST_BACKUP_SOLUTION</titre>
+			<statut>Ok</statut>
+			<body>sauvegarde messagerie et archives</body>
+			<criticite>Important</criticite>
+			<taxonomie>3162</taxonomie>
+			<dependance>			<dependance>479</dependance>
+<dependance>
+		</service>
+	</services>
+	<containers>
+		<container>
+			<numero>478</numero>
+			<titre>TEST_DC01</titre>
+			<statut>Error</statut>
+			<body>Contrôleur de domaine</body>
+			<criticite>Important</criticite>
+			<taxonomie>3155</taxonomie>
+		</container>
+			<dependance>482</dependance>
+			<dependance>480</dependance>
+		<container>
+			<numero>479</numero>
+			<titre>TEST_DC02</titre>
+			<statut>Ok</statut>
+			<body>Contrôleur de domaine</body>
+			<criticite>Important</criticite>
+			<taxonomie>3155</taxonomie>
+		</container>
+			<dependance>483</dependance>
+			<dependance>480</dependance>
+		<container>
+			<numero>480</numero>
+			<titre>TEST_Datacenter</titre>
+			<statut>Ok</statut>
+			<body>Datacenter de l'entreprise</body>
+			<criticite>Indispensable</criticite>
+			<taxonomie>3159</taxonomie>
+		</container>
+			<dependance>479</dependance>
+			<dependance>479</dependance>
+			<dependance>479</dependance>
+			<dependance>478</dependance>
+			<dependance>479</dependance>
+	</containers>
+</dfsi>

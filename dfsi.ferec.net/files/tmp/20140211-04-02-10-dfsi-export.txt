@@ -1,0 +1,6 @@
+478, "itcontainer", "TEST_DC01", "Contrôleur de domaine","", "215:3155", "Error", "Important", "482", "", "480", 
+479, "itcontainer", "TEST_DC02", "Contrôleur de domaine","", "215:3155", "Ok", "Important", "483", "", "480", 
+480, "itcontainer", "TEST_Datacenter", "Datacenter de l'entreprise","478,479", "215:3159", "Ok", "Indispensable", "478,479", "", "", 
+481, "itservice", "TEST_Domaine_DFSI.CORP", "Domaine interne groupe","", "", "", "215:3167", "Warning", "Important", "", "478,479", "", 
+482, "itservice", "Fsmo", "serveur FSMO du domaine DFSI.CORP","", "", "", "215:3160", "Error", "Important", "", "", "478", 
+483, "itservice", "TEST_BACKUP_SOLUTION", "sauvegarde messagerie et archives","", "", "", "215:3162", "Ok", "Important", "", "", "479", 

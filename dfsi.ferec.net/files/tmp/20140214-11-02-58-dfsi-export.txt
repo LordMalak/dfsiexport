@@ -1,0 +1,53 @@
+<schema targetNamespace="http://dfsi.ferec.net"
+	xmlns="http://dfsi.ferec.net/xmlschema-export"
+	xmlns:cm="http://dfsi.ferec.net/namespace/export">
+	<element name="dfsi" type="cm:dfsi" />
+	<type name="dfsi">
+		<element name="service" type="cm:service" />
+		<element name="container" type="cm:container" />
+		<element name="taxonomie" type="cm:taxonomie" />
+	</type>
+	<type name="service">
+		<element name="numero" type="integer" />
+		<element name="type" type="string" />
+	</type>
+	<type name="container">
+		<element name="numero" type="integer" />
+		<element name="type" type="string" />
+	</type>
+	<type name="taxonomie">
+		<element name="numero" type="integer" />
+		<element name="type" type="string" />
+	</type>
+</schema>
+
+<dfsi>
+	<services>
+		<service>
+			<numero>481</numero>
+			<titre>TEST_Domaine_DFSI.CORP</titre>
+		</service>
+		<service>
+			<numero>482</numero>
+			<titre>Fsmo</titre>
+		</service>
+		<service>
+			<numero>483</numero>
+			<titre>TEST_BACKUP_SOLUTION</titre>
+		</service>
+	</services>
+	<containers>
+		<container>
+			<numero>478</numero>
+			<titre>TEST_DC01</titre>
+		</container>
+		<container>
+			<numero>479</numero>
+			<titre>TEST_DC02</titre>
+		</container>
+		<container>
+			<numero>480</numero>
+			<titre>TEST_Datacenter</titre>
+		</container>
+	</containers>
+</dfsi>
